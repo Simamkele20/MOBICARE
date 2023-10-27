@@ -41,6 +41,15 @@ main.container2{
     
 }
 
+.sec4 :is(.col2){
+   
+    height:380px;
+    text-wrap: wrap;
+    width: 400px;
+    margin-left: 400px;
+    margin-top: -250px;
+
+}
 img [alt=Image1, Image2,Image3]{
     
     width: 25rem;
@@ -104,12 +113,17 @@ section.sec3{
 padding-top:90px;
 padding-bottom: 30px;
    margin-top:-180px;
-   margin-bottom: 400px;
+   margin-bottom: 200px;
     background-image:url(https://i.postimg.cc/RFf3kmqT/R.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
 }
 
 
+section.sec4{
+    margin-left: 300px;
+    margin-bottom: 200px;
+   
+}
 
 
