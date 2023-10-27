@@ -1,0 +1,50 @@
+/* Universal Selector */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+   
+    
+}
+
+.nav-item{
+    font-weight: bold;
+   
+   
+    
+  
+}
+
+main{
+    height: 50rem;
+    background-image: url(https://i.postimg.cc/mr2ZT6Qv/R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.col{
+    margin-top: 150px;
+     column-width: 300px;
+     height: 500px;
+     
+    
+}
+
+img{
+    
+    width: 25rem;
+    cursor: pointer;
+}
+
+button{
+   justify-content: center;
+}
+
