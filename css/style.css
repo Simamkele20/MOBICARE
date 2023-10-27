@@ -6,10 +6,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Css import */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
 .navbar{
     position: sticky;
     top: 0;
+    padding: 0;
    
     
 }
@@ -22,7 +25,7 @@
   
 }
 
-main{
+main.container2{
     height: 50rem;
     background-image: url(https://i.postimg.cc/mr2ZT6Qv/R.jpg);
     background-repeat: no-repeat;
@@ -38,13 +41,75 @@ main{
     
 }
 
-img{
+img [alt=Image1, Image2,Image3]{
     
     width: 25rem;
     cursor: pointer;
 }
 
-button{
-   justify-content: center;
+img[alt=Medical]{
+    margin-top: 0;
 }
+
+h2.heading1{
+    font-weight: bold;
+    color: red;
+}
+h4.h21{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+h2.heading2{
+
+    font-weight: bold;
+    color: darkblue;
+}
+
+span.bold{
+    color: black;
+    font-weight: bold;
+}
+
+img[alt=Images]{
+    width: 400px;
+}
+img[alt=Images1]{
+    width: 380px;
+    height: 270px;
+}
+
+div.sec{
+   padding-bottom: 1px;
+    margin-top: -100px;
+    
+   
+}
+p.para2{
+    margin-top: 20px;
+    
+}
+
+
+i{
+    font-size: 90px;
+    position: relative;
+    top: 43rem;
+    
+}
+
+section.sec3{
+padding-top:90px;
+padding-bottom: 30px;
+   margin-top:-180px;
+   margin-bottom: 400px;
+    background-image:url(https://i.postimg.cc/RFf3kmqT/R.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
 
